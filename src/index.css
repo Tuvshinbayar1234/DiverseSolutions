@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@font-face {
+    font-family: 'Magistral' ;
+    src: url('/src/assets/Magistral-Bold.ttf');
+}
+@tailwind utilities;
