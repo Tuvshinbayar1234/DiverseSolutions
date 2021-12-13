@@ -45,32 +45,32 @@ function App(){
           <h1 className="text-4xl text-center">Contact</h1>
         </div>
         <div className="flex flex-col justify-center items-center py-10">
-          <div className="w-3/4 flex justify-evenly items-center">
-              <div className="">
-                <h1>Your Name</h1>
-                <input className=" w-44 py-4 outline-none border-b" placeholder="Name" />
-              </div>  
-              <div className="">
-                <h1>Your Name</h1>
-                <input className=" w-44 py-4 outline-none border-b" placeholder="Name" />
-              </div>  
-              <div className="">
-                <h1>Your Name</h1>
-                <input className=" w-44 py-4 outline-none border-b" placeholder="Name" />
-              </div>            
+          <div className="w-6/12 flex justify-evenly">
+             <div className="flex flex-col">
+               <h1>Нэр</h1>
+               <input className="w-44 py-4 outline-none border-b" placeholder="Name" />
+             </div>
+             <div className="flex flex-col">
+               <h1>E-mail</h1>
+               <input className=" w-44 py-4 outline-none border-b" placeholder="E-mail" />
+             </div>
+             <div className="flex flex-col">
+               <h1>Phone</h1>
+               <input className=" w-44 py-4 outline-none border-b" placeholder="Phone" />
+             </div>
           </div>
-          <div className="w-3/4 flex justify-center items-center space-x-16">
-              <div className="w-full py-4 ml-40">
-                <h1>Your Name</h1>
-                <input className="py-4 w-11/12 outline-none border-b" placeholder="Name" />
-              </div>  
-              <div className="w-full py-4">
-               
-                  <div className="p-5 rounded-lg w-56 text-center text-white hover:bg-blue-400 bg-blue-500 cursor-pointer">
-                    <AlertSuccess {...SuccessData} />
-                  </div>
-                
-              </div>  
+          <div className="w-6/12 py-5">
+            <div className="flex justify-evenly space-x-6">
+              <div className="flex flex-col">
+                <h1>Message</h1>
+                <input className="w-96 py-4 outline-none border-b" placeholder="Message" />
+              </div>
+              
+              <div className="flex flex-col items-center justify-center">
+              <AlertSuccess {...SuccessData}  />
+             </div>
+             
+            </div>
           </div>
         </div>
       </div>
@@ -82,3 +82,31 @@ function App(){
 }
 
 export default App;
+
+ {/* <div className="">
+                <div className="">
+                  <h1>Your Name</h1>
+                  <input className=" w-44 py-4 outline-none border-b" placeholder="Name" />
+                </div>  
+                <div className="py-4">
+                  <h1>Email</h1>
+                  <input className=" w-44 py-4 outline-none border-b" placeholder="Name" />
+                </div>            
+              </div>
+              <div className="">
+              <div className="py-4">
+                  <h1>Email</h1>
+                  <input className=" w-44 py-4 outline-none border-b" placeholder="Name" />
+                </div> 
+              </div> */}
+              {/* <div className="">
+                <div className="w-full py-4">
+                  <h1>Message</h1>
+                  <input className="py-4 w-11/12 outline-none border-b" placeholder="Name" />
+                </div>  
+                <div className="w-full py-4">
+                  <div className="py-4 rounded-lg w-56 text-center text-white hover:bg-blue-400 bg-blue-500 cursor-pointer">
+                    <AlertSuccess {...SuccessData} />
+                  </div>
+                </div> 
+              </div> */}

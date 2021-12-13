@@ -20,7 +20,7 @@ const Team = () => {
             <div className=''>
                 <h1 className='text-4xl'>Манай хамт олон</h1>
             </div>
-            <div className='flex justify-center items-center space-x-20 pt-10 py-4'>
+            <div className='flex justify-between items-center space-x-20 pt-10 py-4'>
                 <div className=' p-5 rounded-3xl shadow-lg'>
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={eegii} />
@@ -67,7 +67,7 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center items-center space-x-20 py-4'>
+            <div className='flex justify-between items-center space-x-20 py-4'>
                 <div className=' p-5 rounded-3xl shadow-lg'>
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={buri} />
@@ -114,7 +114,7 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex justify-center items-center space-x-20 py-4 w-3/5 2xl:ml-6'>
+            <div className='flex justify-between items-center space-x-20 py-4'>
                 <div className=' p-5 rounded-3xl shadow-lg'>
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={zaya} />
@@ -142,7 +142,24 @@ const Team = () => {
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
-                
+                <div className=' p-5 rounded-3xl shadow-lg opacity-0'>
+                    <div className='flex justify-center items-center'>
+                        <img className='w-36' alt='team' src={tamiraa} />
+                    </div>
+                    <div className='flex flex-col justify-center'>
+                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='ml-1'>CEO</h1>
+                    </div>
+                </div>
+                <div className=' p-5 rounded-3xl shadow-lg opacity-0'>
+                    <div className='flex justify-center items-center'>
+                        <img className='w-36' alt='team' src={tamiraa} />
+                    </div>
+                    <div className='flex flex-col justify-center'>
+                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='ml-1'>CEO</h1>
+                    </div>
+                </div>
             </div>
         </div>
     )

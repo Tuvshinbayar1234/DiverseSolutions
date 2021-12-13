@@ -179,7 +179,7 @@ const Projects = () => {
                         <div className='w-2/4'>
                             <div className='py-10'>
                                 <h1>Бид хэн бэ</h1>
-                                <p className='w-4/5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quis alias, minima sed mollitia nihil magni repellat hic! Enim, voluptatem.</p>
+                                <p className='w-4/5 origin-bottom-left transform -rotate-1 py-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quis alias, minima sed mollitia nihil magni repellat hic! Enim, voluptatem.</p>
                             </div>
                             <div className=''>
                                 <h1>Бид хэн бэ</h1>
