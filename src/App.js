@@ -13,7 +13,7 @@ function App(){
   const SuccessData = {
     title: "Success",
     type: "success",
-    text: "Your work has been saved.",
+    text: "your message has been sent",
     footer: ""
   };
 
