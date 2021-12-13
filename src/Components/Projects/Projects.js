@@ -217,7 +217,7 @@ const Projects = () => {
                                                     <a href='https://dax.mn/' target="_blank">{selectedProject[0].name}</a>
                                                 </div>
                                             </div>
-                                            <div className='flex flex-col justify-center w-6/12 ml-20'>
+                                            <div className='flex flex-col justify-center w-6/12 ml-14'>
                                                 <h1 className='text-4xl py-5 text-white'>{selectedProject[0].name}</h1>
                                                 <p className='w-10/12 text-white'>{selectedProject[0].description}</p>
                                             </div>
@@ -250,7 +250,7 @@ const Projects = () => {
                                 <div onClick={() => closedBottomAlert()} className={`z-50 overflow-y-hidden absolute -top-6 -right-6 bottom-0 flex flex-col w-full max-w-screen-2xl py-6 border-r  ${isOpenBot ? ' absolute left-0 transition-all opacity-100 duration-200 ease-in ' : ' absolute left-full opacity-0 transition-all duration-200 ease-in '}`}>
                                 <div class='flex flex-col items-end'>
                                     <div class='w-8/12 h-56 rounded-tr-lg rounded-tl-lg  shadow-2xl text-white' style={{backgroundColor: '#313131'}}>
-                                    <div className='flex flex-col justify-center w-3/4 ml-20'>
+                                    <div className='flex flex-col justify-center w-4/5 ml-20'>
                                             <h1 className='text-4xl py-5 text-white'>{selectedProduct[0].name}</h1>
                                             <p className='w-10/12 text-white'>{selectedProduct[0].description}</p>
                                         </div>
@@ -265,7 +265,7 @@ const Projects = () => {
                                                     <a href='https://dax.mn/' target="_blank">{selectedProduct[0].name}</a>
                                                 </div>
                                             </div>
-                                            <div className='flex flex-col w-3/4 ml-28'>
+                                            <div className='flex flex-col w-3/4 ml-20'>
                                                 <h1 className='text-2xl text-white'>{selectedProduct[0].development}</h1>
                                                 <div className='py-2 text-xs flex justify-start items-center space-x-52'>
                                                     <div className=''>
