@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Bataa from '../../assets/bataa.png'
 import amaraa from '../../assets/amaraa.png'
 import bo from '../../assets/bo.png'
@@ -12,16 +12,26 @@ import tamiraa from '../../assets/tamiraa.png'
 import buri from '../../assets/buri.png'
 import eegii from '../../assets/eegii.png'
 import tseku from '../../assets/tseku.png'
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Team = () => {
+
+    useEffect(() => {
+        Aos.init({
+          duration: 1000,
+          easing: "ease-in-shine",
+        });
+        Aos.refresh();
+      }, []);
+
     return (
         <div className='w-full container mx-auto px-10'>
             <div className=''>
                 <h1 className='text-4xl'>Манай хамт олон</h1>
             </div>
             <div className='flex justify-between items-center space-x-20 pt-10 py-4'>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={eegii} />
                     </div>
@@ -30,7 +40,7 @@ const Team = () => {
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={bo} />
                     </div>
@@ -39,7 +49,7 @@ const Team = () => {
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={odko} />
                     </div>
@@ -48,7 +58,7 @@ const Team = () => {
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={anhaa} />
                     </div>
@@ -57,7 +67,7 @@ const Team = () => {
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={tulgaa} />
                     </div>
@@ -68,7 +78,7 @@ const Team = () => {
                 </div>
             </div>
             <div className='flex justify-between items-center space-x-20 py-4'>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={buri} />
                     </div>
@@ -77,7 +87,7 @@ const Team = () => {
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={Bataa} />
                     </div>
@@ -86,7 +96,7 @@ const Team = () => {
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={muugii} />
                     </div>
@@ -95,7 +105,7 @@ const Team = () => {
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={tuku} />
                     </div>
@@ -104,7 +114,7 @@ const Team = () => {
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={amaraa} />
                     </div>
@@ -115,7 +125,7 @@ const Team = () => {
                 </div>
             </div>
             <div className='flex justify-between items-center space-x-20 py-4'>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={zaya} />
                     </div>
@@ -124,7 +134,7 @@ const Team = () => {
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={tseku} />
                     </div>
@@ -133,7 +143,7 @@ const Team = () => {
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
-                <div className=' p-5 rounded-3xl shadow-lg'>
+                <div className=' p-5 rounded-3xl shadow-lg' data-aos="zoom-in-left">
                     <div className='flex justify-center items-center'>
                         <img className='w-36' alt='team' src={tamiraa} />
                     </div>
