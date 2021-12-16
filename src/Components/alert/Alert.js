@@ -19,8 +19,8 @@ export default class AlertSuccess extends Component {
 
     render() {
         return (
-            <div>
-                <button class="py-4 rounded-lg w-72 text-center text-white hover:bg-blue-400 bg-blue-500 cursor-pointer" onClick={this.HandleClick}>
+            <div className="">
+                <button class="py-4 rounded-lg w-60 sm:w-44 text-center text-white hover:bg-blue-400 bg-blue-500 cursor-pointer" onClick={this.HandleClick}>
                     Send message
                 </button>
             </div>
