@@ -4,7 +4,7 @@ import {FaAngleDown} from 'react-icons/fa'
 
 const ProjectAccordion = () => {
     return(
-        <div className='pt-10 block xl:hidden container flex flex-col px-10 w-full'>
+        <div className='pt-10 block xl:hidden container flex flex-col px-5 w-full'>
             <div className='text-4xl'>
                 Бид ?
             </div>
