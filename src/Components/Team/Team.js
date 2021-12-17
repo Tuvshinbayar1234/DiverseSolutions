@@ -19,7 +19,7 @@ import AutoPlay from "./TeamSlider";
 const Team = () => {
 
     return (
-        <div className='w-full container mx-auto px-10'>
+        <div className='w-full container mx-auto px-5'>
             <div className='hidden sm:block'>
                 <h1 className='text-4xl'>Манай хамт олон</h1>
             </div>
@@ -30,7 +30,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={eegii} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={bo} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={odko} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={anhaa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tulgaa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -79,7 +79,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={buri} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={Bataa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={muugii} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -106,7 +106,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tuku} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -115,7 +115,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={amaraa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -128,7 +128,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={zaya} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -137,7 +137,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tseku} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -146,7 +146,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tamiraa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -155,7 +155,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tamiraa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -164,7 +164,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tamiraa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -178,7 +178,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={zaya} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -187,7 +187,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tseku} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -196,7 +196,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tamiraa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -210,7 +210,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={zaya} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -219,7 +219,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tseku} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -228,7 +228,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tamiraa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -242,7 +242,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={zaya} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -251,7 +251,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tseku} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -260,7 +260,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tamiraa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -276,7 +276,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tseku} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -285,7 +285,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tamiraa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>
@@ -294,7 +294,7 @@ const Team = () => {
                         <img className='w-36' alt='team' src={tamiraa} />
                     </div>
                     <div className='flex flex-col justify-center'>
-                        <h1 className='text-center text-2xl'>Г.Ууганбат</h1>
+                        <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
                         <h1 className='ml-1'>CEO</h1>
                     </div>
                 </div>

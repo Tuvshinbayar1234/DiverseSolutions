@@ -44,26 +44,26 @@ const ProjectSlider = () => {
     }
     
     return (
-        <div className="xl:hidden block w-full container pb-10">
+        <div className="xl:hidden block w-full container mx-auto py-10">
             <div className="text-2xl pb-5 px-5">
                 <h1>Төслүүд</h1>
             </div>
-            <div className='mx-5 rounded-xl'>
+            <div className='rounded-xl'>
             <div className="inset-0 flex flex-col space-y-5 items-center justify-center">
                 <div className='flex w-full justify-evenly space-x-5'>
-                    <button type="button" onClick={openModal} className="px-4 py-2 text-sm font-medium text-white bg-black rounded-md">
-                        <img src={White} />
+                    <button type="button" onClick={openModal} className="px-4 py-2 text-sm font-medium text-white shadow-lg rounded-xl">
+                        <img src={Project1} />
                     </button>
-                    <button type="button" onClick={openModalSecond} className="px-4 py-2 text-sm font-medium text-white bg-black rounded-md">
-                        <img src={White} />
+                    <button type="button" onClick={openModalSecond} className="px-4 py-2 text-sm font-medium text-white shadow-lg rounded-xl">
+                        <img src={Project1} />
                     </button>
                 </div>
                 <div className='flex w-full justify-evenly space-x-5'>
-                    <button type="button" onClick={openModalThird} className="px-4 py-2 text-sm font-medium text-white bg-black rounded-md">
-                        <img src={White} />
+                    <button type="button" onClick={openModalThird} className="px-4 py-2 text-sm font-medium text-white shadow-lg rounded-xl">
+                        <img src={Project1} />
                     </button>
-                    <button type="button" onClick={openModalFourth} className="px-4 py-2 text-sm font-medium text-white bg-black rounded-md">
-                        <img src={White} />
+                    <button type="button" onClick={openModalFourth} className="px-4 py-2 text-sm font-medium text-white shadow-lg rounded-xl">
+                        <img src={Project1} />
                     </button>
                 </div>
             </div>

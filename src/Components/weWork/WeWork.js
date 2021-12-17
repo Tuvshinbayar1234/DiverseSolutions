@@ -42,11 +42,11 @@ const WeWork = () => {
                     <h1 className='text-2xl text-left w-3/12'>Вебсайт хөгжүүлэлт</h1>
                     <p className=' text-sm w-full mx-1 py-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, error numquam aperiam ratione eos suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, error numquam aperiam ratione eos suscipit?</p>
                     </span>
-                    <span class="w-full h-32 flex-col flex rounded-2xl">
+                    <span class="w-full h-60 flex-col flex rounded-2xl">
                     <h1 className='text-2xl w-9/12'>Вебсайт хөгжүүлэлт</h1>
                     <p className=' text-sm w-full py-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, error numquam aperiam ratione eos suscipit? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, error numquam aperiam ratione eos suscipit?</p>    
                     </span>
-                    <span class="w-full h-60 mt-14 flex-col flex justify-center rounded-2xl">
+                    <span class="w-full h-60 flex-col flex justify-center rounded-2xl">
                     <h1 className='text-2xl text-left w-3/12'>Вебсайт хөгжүүлэлт</h1>
                         <p className=' text-sm w-full mx-1 py-5'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, error numquam aperiam ratione eos suscipit?</p>
                         

@@ -43,16 +43,16 @@ function App(){
       {/* Mobile */}
       <div className="container block lg:hidden px-5">
         <div className="flex justify-evenly">
-          <div className="w-full">
+          <div className="w-6/12 sm:pt-24">
             <div className="">
-              <h1 className="text-2xl leading-snug w-full">Simple Solutions For</h1>
+              <h1 className="text-2xl sm:text-4xl leading-snug w-full sm:w-9/12">Simple Solutions For</h1>
             </div>
-            <div className="flex flex-col justify-end w-full">
-              <h1 className="text-2xl text-right">Complex</h1>
-              <h1 className="text-2xl">Conundrum</h1>
+            <div className="flex flex-col justify-end w-full sm:w-9/12">
+              <h1 className="text-2xl sm:text-4xl text-right">Complex</h1>
+              <h1 className="text-2xl sm:text-4xl">Conundrum</h1>
             </div>
           </div>
-          <div className="  w-6/12 flex justify-center">
+          <div className="  w-6/12 flex justify-center items-center">
             <img className="" src={Home} alt="Home" />
           </div>
         </div>
@@ -69,7 +69,7 @@ function App(){
           <h1 className="text-4xl text-center">Contact</h1>
         </div>
         <div className="flex flex-col justify-center items-center py-10">
-          <div className="w-6/12 flex justify-evenly">
+          <div className="w-6/12 flex justify-evenly space-x-5">
              <div className="flex flex-col">
                <h1>Нэр</h1>
                <input className="w-44 py-4 outline-none border-b" placeholder="Name" />
@@ -84,10 +84,10 @@ function App(){
              </div>
           </div>
           <div className="w-6/12 py-5">
-            <div className="flex justify-evenly space-x-6">
+            <div className="flex justify-evenly lg:space-x-6 sm:space-x-20">
               <div className="flex flex-col">
                 <h1>Message</h1>
-                <input className="w-96 py-4 outline-none border-b" placeholder="Message" />
+                <textarea id="message" rows="4" className="lg:w-96 sm:w-80 py-4 outline-none border-b" placeholder="Leave a comment..."></textarea>
               </div>
               
               <div className="flex flex-col items-center justify-center">
@@ -120,7 +120,7 @@ function App(){
              <div className="flex flex-col justify-evenly space-x-6">
               <div className="flex flex-col">
                 <h1>Message</h1>
-                <input className="w-56 py-4 outline-none border-b" placeholder="Message" />
+                <textarea id="message" rows="4" className="w-56 py-4 outline-none border-b" placeholder="Leave a comment..."></textarea>
               </div>
             </div>
           </div>
