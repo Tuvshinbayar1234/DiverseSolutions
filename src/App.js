@@ -43,7 +43,7 @@ function App(){
       {/* Mobile */}
       <div className="container block lg:hidden px-5">
         <div className="flex justify-evenly">
-          <div className="w-6/12 sm:pt-24">
+          <div className="w-6/12 sm:pt-24" style={{fontFamily: 'Magistral'}}>
             <div className="">
               <h1 className="text-2xl sm:text-4xl leading-snug w-full sm:w-9/12">Simple Solutions For</h1>
             </div>
