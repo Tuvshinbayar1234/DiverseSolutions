@@ -10,7 +10,7 @@ const We = () => {
                             <h1 className='text-9xl'>Бид ?</h1>
                         </div>
                         <div className='flex flex-col justify-center items-center'>
-                            <h1 className='w-2/4'>Бидний түүх</h1>
+                            <h1 className='w-2/4 pt-10'>Бидний түүх</h1>
                             <p className='origin-center transform rotate-1 py-5 w-2/4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ea ullam id esse quibusdam commodi.</p>
                         </div>
                     </div>

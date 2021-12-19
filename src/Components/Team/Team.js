@@ -31,7 +31,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -40,7 +40,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -49,7 +49,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -58,7 +58,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -67,7 +67,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -89,7 +89,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -98,7 +98,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -107,7 +107,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -116,7 +116,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -138,7 +138,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -147,7 +147,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg opacity-0'>
@@ -156,7 +156,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg opacity-0'>
@@ -165,7 +165,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
             </div>
@@ -179,7 +179,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -188,7 +188,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -197,7 +197,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 
@@ -211,7 +211,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -220,7 +220,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -229,7 +229,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                
@@ -243,7 +243,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -252,7 +252,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -261,7 +261,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                
@@ -277,7 +277,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg'>
@@ -286,7 +286,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                 <div className=' p-5 rounded-3xl shadow-lg opacity-0'>
@@ -295,7 +295,7 @@ const Team = () => {
                     </div>
                     <div className='flex flex-col justify-center'>
                         <h1 className='text-center text-2xl pt-3'>Г.Ууганбат</h1>
-                        <h1 className='ml-1'>CEO</h1>
+                        <h1 className='ml-3'>CEO</h1>
                     </div>
                 </div>
                
