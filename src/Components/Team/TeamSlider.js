@@ -42,128 +42,128 @@ const TeamSlider = () => {
         {
           img: eegii,
           title: 'М. Энх-Амгалан',
-          text: 'Lorem'
+          text: 'CEO'
         },
         {
           img: bo,
           title: 'М. Болортоль',
-          text: 'Lorem '
+          text: 'COO '
         },
         {
           img: odko,
-          title: 'М. Болортоль',
-          text: 'Orci'
+          title: 'Г. Мөнход',
+          text: 'CTO'
         },
         {
           img: anhaa,
-          title: 'М. Болортоль',
-          text: 'Bibendum'
+          title: 'Д. Анхбаясгалан',
+          text: 'Advisor'
         },
         {
           img: tulgaa,
-          title: 'М. Болортоль',
-          text: 'Mattis'
+          title: 'Б. Баттулга',
+          text: 'FullStack'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: buri,
+            title: 'Б. Бүри',
+            text: 'DevOps'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: Bataa,
+            title: 'Г. Ууганбат',
+            text: 'Senior Developer'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: muugii,
+            title: 'О. Мөнхзориг',
+            text: 'Developer'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: tuku,
+            title: 'O. Түвшинбаяр',
+            text: 'Developer'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: zaya,
+            title: 'Ж. Амарзаяа',
+            text: 'Secretary'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: amaraa,
+            title: 'А. Амартүвшин',
+            text: 'BlockChain Advisor'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: tseku,
+            title: 'Т. Бумцэнд',
+            text: 'Designer'
         },
       ]
 
       const teamPeopleleft = [
         {
-          img: eegii,
-          title: 'М. Энх-Амгалан',
-          text: 'Lorem'
-        },
-        {
-          img: bo,
-          title: 'М. Болортоль',
-          text: 'Lorem '
-        },
-        {
-          img: odko,
-          title: 'М. Болортоль',
-          text: 'Orci'
-        },
-        {
-          img: anhaa,
-          title: 'М. Болортоль',
-          text: 'Bibendum'
-        },
-        {
-          img: tulgaa,
-          title: 'М. Болортоль',
-          text: 'Mattis'
-        },
-        {
-            img: tulgaa,
+            img: eegii,
+            title: 'М. Энх-Амгалан',
+            text: 'CEO'
+          },
+          {
+            img: bo,
             title: 'М. Болортоль',
-            text: 'Mattis'
-        },
+            text: 'COO '
+          },
+          {
+            img: odko,
+            title: 'Г. Мөнход',
+            text: 'CTO'
+          },
+          {
+            img: anhaa,
+            title: 'Д. Анхбаясгалан',
+            text: 'Advisor'
+          },
+          {
+            img: tulgaa,
+            title: 'Б. Баттулга',
+            text: 'FullStack'
+          },
+          {
+            img: buri,
+            title: 'Б. Бүри',
+            text: 'DevOps'
+          },
       ]
 
       const teamPeopleRight = [
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: Bataa,
+            title: 'Г. Ууганбат',
+            text: 'Senior Developer'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: muugii,
+            title: 'О. Мөнхзориг',
+            text: 'Developer'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: tuku,
+            title: 'O. Түвшинбаяр',
+            text: 'Developer'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: zaya,
+            title: 'Ж. Амарзаяа',
+            text: 'Secretary'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: amaraa,
+            title: 'А. Амартүвшин',
+            text: 'BlockChain Advisor'
         },
         {
-            img: tulgaa,
-            title: 'М. Болортоль',
-            text: 'Mattis'
+            img: tseku,
+            title: 'Т. Бумцэнд',
+            text: 'Designer'
         },
       ]
 
@@ -171,7 +171,7 @@ const TeamSlider = () => {
         <div className="sm:hidden block w-full container mx-auto">
             <div className=" text-lg px-3 pb-5 flex justify-between items-center">
                 <h1>Манай хамт олон</h1>
-                <p onClick={openModal} className="text-xs">Бүгдийг үзэх</p>
+                <p onClick={openModal} className="text-xs cursor-pointer">Бүгдийг үзэх</p>
             </div>
             <Slider className='flex justify-center items-center' {...settings}>
             {teamPeople.map((x, i) => {

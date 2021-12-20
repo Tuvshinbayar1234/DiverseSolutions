@@ -1,7 +1,7 @@
 import React ,{useState} from 'react'
 import Project1 from '../../assets/project.png'
 import White from '../../assets/whitelogo.png'
-import {FaAngleRight} from 'react-icons/fa'
+import {FaAngleRight , FaAngleLeft} from 'react-icons/fa'
 import styles from './style.module.css'
 
 const Projects = () => {
@@ -46,7 +46,7 @@ const Projects = () => {
         },
         {
             id: 2,
-            name: 'dax.com',
+            name: 'dax.mn',
             code: 'ARDX',
             description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, maxime.',
             development: 'Development',
@@ -66,7 +66,7 @@ const Projects = () => {
     const products = [
         {
            id: 1,
-           name: 'stablecoin.com',
+           name: 'monnom',
            code: 'MONT',
            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, maxime.',
            development: 'Development',
@@ -82,7 +82,7 @@ const Projects = () => {
        },
        {
            id: 2,
-           name: 'dax.com',
+           name: 'ardmoney.mn',
            code: 'ARDX',
            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, maxime.',
            development: 'Development',
@@ -134,7 +134,7 @@ const Projects = () => {
         <div className='w-full py-20 hidden xl:block'>
             <div className='container mx-auto px-10'>
                 <div className=''>
-                    <h1 className='text-4xl'>Төслүүд</h1>
+                    <h1 id='Project' className='text-4xl font-bold'>Төслүүд</h1>
                 </div>
                 <div className='flex'>
                     <div className='flex'>
@@ -168,7 +168,7 @@ const Projects = () => {
                             </div>
 
                             {showTopAlert && selectedProject != null && (
-                                <div onClick={() => closedAlert()} className={`z-50 overflow-y-hidden absolute -top-6 -right-6 bottom-0 flex flex-col w-full max-w-screen-2xl py-6 border-r  ${isOpen ? ' absolute left-0 transition-all opacity-100 duration-200 ease-in ' : ' absolute left-full opacity-0 transition-all duration-200 ease-in '}`}>
+                                <div className={`z-50 overflow-y-hidden absolute -top-6 -right-6 bottom-0 flex flex-col w-full max-w-screen-2xl py-6 border-r  ${isOpen ? ' absolute left-0 transition-all opacity-100 duration-200 ease-in ' : ' absolute left-full opacity-0 transition-all duration-200 ease-in '}`}>
                                     <div class={`flex flex-col items-end `}>
                                         <div class={`shadow-2xl w-full h-52 text-white rounded-bl-lg rounded-tl-lg rounded-tr-lg flex flex-row`} style={{backgroundColor: '#313131'}}>
                                             <div className='flex items-center justify-center flex-col w-60'>
@@ -183,6 +183,7 @@ const Projects = () => {
                                                 <h1 className='text-4xl py-5 text-white'>{selectedProject[0].name}</h1>
                                                 <p className='w-10/12 text-white'>{selectedProject[0].description}</p>
                                             </div>
+                                            <span onClick={() => closedAlert()} className='text-4xl mt-5 cursor-pointer'><FaAngleLeft /></span>
                                         </div>
                                         <div className={`shadow-2xl w-7/12`}>
                                             <div className={` h-56 rounded-bl-lg rounded-br-lg`} style={{backgroundColor: '#313131'}}>
@@ -209,12 +210,13 @@ const Projects = () => {
                                 </div>
                             )}
                             {showBottomAlert && selectedProduct != null && (
-                                <div onClick={() => closedBottomAlert()} className={`z-50 overflow-y-hidden absolute -top-6 -right-6 bottom-0 flex flex-col w-full max-w-screen-2xl py-6 border-r  ${isOpenBot ? ' absolute left-0 transition-all opacity-100 duration-200 ease-in ' : ' absolute left-full opacity-0 transition-all duration-200 ease-in '}`}>
+                                <div className={`z-50 overflow-y-hidden absolute -top-6 -right-6 bottom-0 flex flex-col w-full max-w-screen-2xl py-6 border-r  ${isOpenBot ? ' absolute left-0 transition-all opacity-100 duration-200 ease-in ' : ' absolute left-full opacity-0 transition-all duration-200 ease-in '}`}>
                                 <div class='flex flex-col items-end'>
                                     <div class=' w-7/12 h-56 rounded-tr-lg rounded-tl-lg  shadow-2xl text-white' style={{backgroundColor: '#313131'}}>
-                                    <div className='flex flex-col justify-center items-center'>
-                                            <h1 className='text-4xl py-5 text-white'>{selectedProduct[0].name}</h1>
-                                            <p className='w-10/12 text-white'>{selectedProduct[0].description}</p>
+                                    <span onClick={() => closedBottomAlert()} className='cursor-pointer text-4xl flex justify-end items-center text-right w-full'><FaAngleLeft /></span>
+                                        <div className='flex flex-col justify-center items-center'>
+                                                <h1 className='text-4xl py-5 text-white'>{selectedProduct[0].name}</h1>
+                                                <p className='w-10/12 text-white'>{selectedProduct[0].description}</p>
                                         </div>
                                     </div>
                                     <div class=' shadow-2xl h-52 rounded-bl-lg rounded-br-lg rounded-tl-lg text-white  w-full' style={{backgroundColor: '#313131'}}>

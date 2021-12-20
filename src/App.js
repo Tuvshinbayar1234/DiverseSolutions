@@ -66,7 +66,7 @@ function App(){
       <ProjectAccordion />
       <div className="container mx-auto py-20 hidden sm:block">
         <div className="">
-          <h1 className="text-4xl text-center">Contact</h1>
+          <h1 className="text-4xl text-center" style={{fontFamily: 'Magistral'}}>Contact</h1>
         </div>
         <div className="flex flex-col justify-center items-center py-10">
           <div className="w-6/12 flex justify-evenly space-x-5">

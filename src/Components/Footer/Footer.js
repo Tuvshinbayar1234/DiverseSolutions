@@ -24,9 +24,9 @@ const Footer = () => {
                             <span>+976 91951199</span>
                         </div>
                         <div className='flex text-xl space-x-5 py-5'>
-                            <FaInstagram />
-                            <FaFacebookF />
-                            <FaLinkedinIn />
+                        <a className=' cursor-pointer' href='https://www.instagram.com/diverse.solutions/' target='_blank'><FaInstagram /></a> 
+                        <a className=' cursor-pointer' href='https://www.facebook.com/aidiversesolutions/' target='_blank'><FaFacebookF /></a>
+                        <a className=' cursor-pointer' href='https://www.linkedin.com/company/diversesolutions/' target='_blank'><FaLinkedinIn /></a> 
                             <FaGithub />
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const Footer = () => {
                             <p>Имайл:</p>
                             <p>info@dsolutions.mn</p>
                         </div>
-                        <div className='py-2 flex space-x-5'>
+                        <div className='py-6 flex space-x-5'>
                             <p>Хаяг:</p>
                             <p>Цэнтрал товер 17 давхар</p>
                         </div>
@@ -53,9 +53,9 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex text-2xl text-center justify-center items-center text-white space-x-5 py-5'>
-                        <FaInstagram />
-                        <FaFacebookF />
-                        <FaLinkedinIn />
+                       <a className=' cursor-pointer' href='https://www.instagram.com/diverse.solutions/' target='_blank'><FaInstagram /></a> 
+                       <a className=' cursor-pointer' href='https://www.facebook.com/aidiversesolutions/' target='_blank'><FaFacebookF /></a>
+                       <a className=' cursor-pointer' href='https://www.linkedin.com/company/diversesolutions/' target='_blank'><FaLinkedinIn /></a> 
                         <FaGithub />
                     </div>
             </div>

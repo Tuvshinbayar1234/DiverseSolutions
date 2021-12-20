@@ -63,23 +63,23 @@ const Nav = () => {
                     <div className=' w-60'>
                         <img src={Logo} alt='logo'/>
                     </div>
-                    <ul className='flex w-2/5 justify-between items-center'>
-                        <a href='#'>
+                    <ul className='flex w-2/5 justify-between items-center font-bold'>
+                        <a href='#We'>
                             <li>
                                 Бид
                             </li>
                         </a>
-                        <a href='#'>
+                        <a href='#WeWork'>
                             <li>
                                 Бид юу хийдэг вэ
                             </li>
                         </a>
-                        <a href='#'>
+                        <a href='#Team'>
                             <li>
                                 Манай хамт олон
                             </li>
                         </a>
-                        <a href='#'>
+                        <a href='#Project'>
                             <li>
                                 Төслүүд
                             </li>
