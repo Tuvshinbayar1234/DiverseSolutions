@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.c963d4ab.chunk.css",
-    "main.js": "/static/js/main.adb33aff.chunk.js",
-    "main.js.map": "/static/js/main.adb33aff.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.becf2ee2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.becf2ee2.js.map",
+    "main.css": "/static/css/main.dce7d854.chunk.css",
+    "main.js": "/static/js/main.397ff643.chunk.js",
+    "main.js.map": "/static/js/main.397ff643.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7efbd581.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7efbd581.js.map",
     "static/css/2.cd76a518.chunk.css": "/static/css/2.cd76a518.chunk.css",
-    "static/js/2.ea5779f5.chunk.js": "/static/js/2.ea5779f5.chunk.js",
-    "static/js/2.ea5779f5.chunk.js.map": "/static/js/2.ea5779f5.chunk.js.map",
-    "static/js/3.39de1b93.chunk.js": "/static/js/3.39de1b93.chunk.js",
-    "static/js/3.39de1b93.chunk.js.map": "/static/js/3.39de1b93.chunk.js.map",
+    "static/js/2.c27fe0ec.chunk.js": "/static/js/2.c27fe0ec.chunk.js",
+    "static/js/2.c27fe0ec.chunk.js.map": "/static/js/2.c27fe0ec.chunk.js.map",
+    "static/js/3.28c28a3f.chunk.js": "/static/js/3.28c28a3f.chunk.js",
+    "static/js/3.28c28a3f.chunk.js.map": "/static/js/3.28c28a3f.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.cd76a518.chunk.css.map": "/static/css/2.cd76a518.chunk.css.map",
-    "static/css/main.c963d4ab.chunk.css.map": "/static/css/main.c963d4ab.chunk.css.map",
-    "static/js/2.ea5779f5.chunk.js.LICENSE.txt": "/static/js/2.ea5779f5.chunk.js.LICENSE.txt",
+    "static/css/main.dce7d854.chunk.css.map": "/static/css/main.dce7d854.chunk.css.map",
+    "static/js/2.c27fe0ec.chunk.js.LICENSE.txt": "/static/js/2.c27fe0ec.chunk.js.LICENSE.txt",
     "static/media/Home.feaf4c1f.png": "/static/media/Home.feaf4c1f.png",
     "static/media/index.css": "/static/media/Magistral-Bold.379b5708.ttf",
     "static/media/amaraa.6a665480.png": "/static/media/amaraa.6a665480.png",
@@ -34,10 +34,10 @@
     "static/media/zaya.e70aca35.png": "/static/media/zaya.e70aca35.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.becf2ee2.js",
+    "static/js/runtime-main.7efbd581.js",
     "static/css/2.cd76a518.chunk.css",
-    "static/js/2.ea5779f5.chunk.js",
-    "static/css/main.c963d4ab.chunk.css",
-    "static/js/main.adb33aff.chunk.js"
+    "static/js/2.c27fe0ec.chunk.js",
+    "static/css/main.dce7d854.chunk.css",
+    "static/js/main.397ff643.chunk.js"
   ]
 }
