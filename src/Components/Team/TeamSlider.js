@@ -38,153 +38,157 @@ const TeamSlider = () => {
         slidesToScroll: 2,
     };
 
-    const teamPeople = [
+    const Team = [
         {
-          img: eegii,
-          title: 'М. Энх-Амгалан',
-          text: 'CEO'
+            img: eegii,
+            name: 'М. Энх-Амгалан',
+            title: 'CEO',
         },
         {
-          img: bo,
-          title: 'М. Болортоль',
-          text: 'COO '
+            img: odko,
+            name: 'Г. Мөнх-Од',
+            title: 'CTO',
         },
         {
-          img: odko,
-          title: 'Г. Мөнход',
-          text: 'CTO'
+            img: bo,
+            name: 'М. Болортоль',
+            title: 'COO',
         },
         {
-          img: anhaa,
-          title: 'Д. Анхбаясгалан',
-          text: 'Advisor'
+            img: anhaa,
+            name: 'Д. Анхбаясгалан',
+            title: 'Advisor',
         },
         {
-          img: tulgaa,
-          title: 'Б. Баттулга',
-          text: 'FullStack'
-        },
-        {
-            img: buri,
-            title: 'Б. Бүри',
-            text: 'DevOps'
+            img: tulgaa,
+            name: 'Б. Баттулга',
+            title: 'FullStack Developer',
         },
         {
             img: Bataa,
-            title: 'Г. Ууганбат',
-            text: 'Senior Developer'
+            name: 'Г. Ууганбат',
+            title: 'Senior Developer',
         },
         {
-            img: muugii,
-            title: 'О. Мөнхзориг',
-            text: 'Developer'
-        },
-        {
-            img: tuku,
-            title: 'O. Түвшинбаяр',
-            text: 'Developer'
-        },
-        {
-            img: zaya,
-            title: 'Ж. Амарзаяа',
-            text: 'Secretary'
-        },
-        {
-            img: amaraa,
-            title: 'А. Амартүвшин',
-            text: 'BlockChain Advisor'
+            img: buri,
+            name: 'Б. Бүри',
+            title: 'DevOps',
         },
         {
             img: tseku,
-            title: 'Т. Бумцэнд',
-            text: 'Designer'
+            name: 'Т. Бумцэнд',
+            title: 'Designer',
         },
-      ]
+        {
+            img: muugii,
+            name: 'О. Мөнхзориг',
+            title: 'Developer',
+        },
+        {
+            img: tuku,
+            name: 'О. Түвшинбаяр',
+            title: 'Developer',
+        },
+        {
+            img: zaya,
+            name: 'Ж. Амарзаяа',
+            title: 'Secretary',
+        },
+        {
+            img: amaraa,
+            name: 'А. Амартүвшин',
+            title: 'Blockchain Consultant',
+        },
+
+    ]
 
       const teamPeopleleft = [
         {
             img: eegii,
-            title: 'М. Энх-Амгалан',
-            text: 'CEO'
-          },
-          {
-            img: bo,
-            title: 'М. Болортоль',
-            text: 'COO '
-          },
-          {
+            name: 'М. Энх-Амгалан',
+            title: 'CEO',
+        },
+        {
             img: odko,
-            title: 'Г. Мөнход',
-            text: 'CTO'
-          },
-          {
+            name: 'Г. Мөнх-Од',
+            title: 'CTO',
+        },
+        {
+            img: bo,
+            name: 'М. Болортоль',
+            title: 'COO',
+        },
+        {
             img: anhaa,
-            title: 'Д. Анхбаясгалан',
-            text: 'Advisor'
-          },
-          {
+            name: 'Д. Анхбаясгалан',
+            title: 'Advisor',
+        },
+        {
             img: tulgaa,
-            title: 'Б. Баттулга',
-            text: 'FullStack'
-          },
-          {
-            img: buri,
-            title: 'Б. Бүри',
-            text: 'DevOps'
-          },
+            name: 'Б. Баттулга',
+            title: 'FullStack Developer',
+        },
+        {
+            img: Bataa,
+            name: 'Г. Ууганбат',
+            title: 'Senior Developer',
+        },
       ]
 
       const teamPeopleRight = [
         {
-            img: Bataa,
-            title: 'Г. Ууганбат',
-            text: 'Senior Developer'
-        },
-        {
-            img: muugii,
-            title: 'О. Мөнхзориг',
-            text: 'Developer'
-        },
-        {
-            img: tuku,
-            title: 'O. Түвшинбаяр',
-            text: 'Developer'
-        },
-        {
-            img: zaya,
-            title: 'Ж. Амарзаяа',
-            text: 'Secretary'
-        },
-        {
-            img: amaraa,
-            title: 'А. Амартүвшин',
-            text: 'BlockChain Advisor'
+            img: buri,
+            name: 'Б. Бүри',
+            title: 'DevOps',
         },
         {
             img: tseku,
-            title: 'Т. Бумцэнд',
-            text: 'Designer'
+            name: 'Т. Бумцэнд',
+            title: 'Designer',
+        },
+        {
+            img: muugii,
+            name: 'О. Мөнхзориг',
+            title: 'Developer',
+        },
+        {
+            img: tuku,
+            name: 'О. Түвшинбаяр',
+            title: 'Developer',
+        },
+        {
+            img: zaya,
+            name: 'Ж. Амарзаяа',
+            title: 'Secretary',
+        },
+        {
+            img: amaraa,
+            name: 'А. Амартүвшин',
+            title: 'Blockchain Consultant',
         },
       ]
 
     return(
-        <div className="sm:hidden block w-full container mx-auto">
+        <div className="lg:hidden block w-full container mx-auto">
             <div className=" text-lg px-3 pb-5 flex justify-between items-center">
                 <h1>Манай хамт олон</h1>
                 <p onClick={openModal} className="text-xs cursor-pointer">Бүгдийг үзэх</p>
             </div>
-            <Slider className='flex justify-center items-center' {...settings}>
-            {teamPeople.map((x, i) => {
+            <div className='flex overflow-x-scroll pb-4'>
+            {Team.map((i, x) => {
                 return (
-                <div key={i} classname=' shadow-xl bg-red-500'>
-                    <img classname="" src={x.img} />
-                    <div class=" text-sm py-2">
-                        <div classname="text-sm text-red-400">{x.title}</div>
-                        <div classname="text-xs">{x.text}</div>
+                <div className="flex justify-center items-center rounded-xl mr-5 sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
+                    <div key={x} className="flex justify-center items-center w-48 h-64">
+                        <div className="">
+                            <img width={'140px'} height={'188px'} src={i.img} />
+                            <h1 className="pt-3 text-xs font-bold">{i.name}</h1>
+                            <p className="text-xs pb-3">{i.title}</p>
+                        </div>
                     </div>
-                </div>)
+                </div>                    
+                )
             })}
-            </Slider>
+            </div>
             <Transition appear show={isOpen} as={Fragment}>
                 <Dialog as="div" className="fixed inset-0 z-10 overflow-y-auto" onClose={closeModal} >
                     <div className="min-h-screen text-center">
@@ -205,28 +209,34 @@ const TeamSlider = () => {
                                     </div>
                                 </Dialog.Title>
                                 <div className="flex justify-around w-full space-x-3">
-                                    <div className=" w-6/12">
-                                        {teamPeopleleft.map((x, i) => {
+                                    <div className=" w-6/12 space-y-5">
+                                        {teamPeopleleft.map((i , x) => {
                                             return (
-                                            <div key={i} classname='shadow-xl'>
-                                                <div className="flex flex-col justify-center items-center shadow-xl rounded-xl p-2">
-                                                    <img classname="w-10" src={x.img} />
-                                                    <div classname="text-xs text-red-400">{x.title}</div>
-                                                    <div classname="text-xs">{x.text}</div>
+                                                <div className="flex justify-center items-center rounded-xl mr-5 sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
+                                                    <div key={x} className="flex justify-center items-center w-48 h-64">
+                                                        <div className="">
+                                                            <img width={'140px'} height={'188px'} src={i.img} />
+                                                            <h1 className="pt-3 text-xs font-bold">{i.name}</h1>
+                                                            <p className="text-xs pb-3">{i.title}</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                            </div>)
+                                            )
                                         })}
                                     </div>
-                                    <div className="w-6/12">
-                                        {teamPeopleRight.map((x, i) => {
+                                    <div className="w-6/12 space-y-5">
+                                        {teamPeopleRight.map((i, x) => {
                                             return (
-                                            <div key={i} classname='shadow-xl'>
-                                                <div className="flex flex-col justify-center items-center shadow-xl rounded-xl p-2">
-                                                    <img classname="w-10" src={x.img} />
-                                                    <div classname="text-xs text-red-400">{x.title}</div>
-                                                    <div classname="text-xs">{x.text}</div>
+                                                <div className="flex justify-center items-center rounded-xl mr-5 sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
+                                                    <div key={x} className="flex justify-center items-center w-48 h-64">
+                                                        <div className="">
+                                                            <img width={'140px'} height={'188px'} src={i.img} />
+                                                            <h1 className="pt-3 text-xs font-bold">{i.name}</h1>
+                                                            <p className="text-xs pb-3">{i.title}</p>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                            </div>)
+                                            )
                                         })}
                                     </div>
                                 </div>

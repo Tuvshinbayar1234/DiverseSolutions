@@ -35,14 +35,14 @@ const Footer = () => {
             <div className='block sm:hidden w-full'>
                 <div className='flex justify-center items-center space-x-2'>
                     <div className=' w-4/12'>
-                        <img className='' src={logo} />
+                        <img width={'101px'} height={'70px'} src={logo} />
                     </div>
                     <div className=' w-6/12 text-xs text-white'>
                         <div className='flex space-x-2'>
                             <p>Имайл:</p>
                             <p>info@dsolutions.mn</p>
                         </div>
-                        <div className='py-6 flex space-x-5'>
+                        <div className='py-3 flex space-x-5'>
                             <p>Хаяг:</p>
                             <p>Цэнтрал товер 17 давхар</p>
                         </div>

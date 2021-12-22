@@ -5,6 +5,7 @@ import Slider, { Settings } from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Dialog, Transition } from '@headlessui/react'
+import {FaAngleRight , FaAngleLeft} from 'react-icons/fa'
 
 const ProjectSlider = () => {
 
@@ -51,19 +52,23 @@ const ProjectSlider = () => {
             <div className='rounded-xl'>
             <div className="inset-0 flex flex-col space-y-5 items-center justify-center">
                 <div className='flex w-full justify-evenly space-x-5'>
-                    <button type="button" onClick={openModal} className="px-4 py-2 text-sm font-medium text-white shadow-lg rounded-xl">
+                    <button type="button" onClick={openModal} className="px-4 py-2 flex justify-center items-center text-sm font-medium shadow-lg rounded-xl">
                         <img src={Project1} />
+                        <FaAngleRight className='text-black' />
                     </button>
-                    <button type="button" onClick={openModalSecond} className="px-4 py-2 text-sm font-medium text-white shadow-lg rounded-xl">
+                    <button type="button" onClick={openModalSecond} className="px-4 py-2 flex justify-center items-center text-sm font-medium shadow-lg rounded-xl">
                         <img src={Project1} />
+                        <FaAngleRight className='text-black' />
                     </button>
                 </div>
                 <div className='flex w-full justify-evenly space-x-5'>
-                    <button type="button" onClick={openModalThird} className="px-4 py-2 text-sm font-medium text-white shadow-lg rounded-xl">
+                    <button type="button" onClick={openModalThird} className="px-4 py-2 flex justify-center items-center text-sm font-medium shadow-lg rounded-xl">
                         <img src={Project1} />
+                        <FaAngleRight className='text-black' />
                     </button>
-                    <button type="button" onClick={openModalFourth} className="px-4 py-2 text-sm font-medium text-white shadow-lg rounded-xl">
+                    <button type="button" onClick={openModalFourth} className="px-4 py-2 flex justify-center items-center text-sm font-medium shadow-lg rounded-xl">
                         <img src={Project1} />
+                        <FaAngleRight className='text-black'/>
                     </button>
                 </div>
             </div>

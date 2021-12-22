@@ -1,48 +1,65 @@
-import React from "react";
-// import './underline.css';
+import React, { useState } from 'react';
 import Logo from '../../assets/Logo.png'
-import './underline.css'
+import { FaTimes, FaAlignJustify, FaBars } from "react-icons/fa";
 
-const Hamburger = () => {
-    return(
-        <div className="navbar-menu relative z-20 block sm:hidden">
-                <div className="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
-                <nav className="fixed top-0 right-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto z-20">
-                    <div className="flex items-center mb-8 z-20">
-                        <a className="mr-auto text-3xl font-bold leading-none text-black" href="#">
-                            <img className="" src={Logo} />
-                        </a>
-                        <button className="navbar-close z-20">
-                            <svg className="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                            </svg>
+export default function Hamburger() {
+
+    const [navOpen, setNavOpen] = useState(false);
+   
+    const handleToggle = () => {
+        setNavOpen(!navOpen);
+    };
+
+    return (
+        <>
+            <div className=''>
+                <div className="relative flex items-center justify-between">
+                    <div className="xl:hidden block space-x-3">
+                        <button onClick={handleToggle} className="flex items-center text-blue-600">
+                            <FaAlignJustify className="text-black w-4 h-4" />
                         </button>
                     </div>
-                    <div className="z-20">
-                        <ul className="z-20">
-                            <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#We">Бид</a>
-                            </li>
-                            <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#WeWork">Бид юу хийдэг вэ?</a>
-                            </li>
-                            <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#Team">Манай хамт олон</a>
-                            </li>
-                            <li className="mb-1">
-                                <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#Project">Төслүүд</a>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                    <div className="mt-auto z-20">
-                        <p className="my-4 text-xs text-center text-gray-400">
-                            <span>Copyright © 2021</span>
-                        </p>
-                    </div>
-                </nav>
+                </div>
+                <div className="navbar-menu">
+                    <nav
+                        className={`bg-white fixed top-0 h-screen  w-full max-w-full overflow-y-auto  ${
+                            navOpen
+                                ? 'fixed right-0 transition-all duration-200 ease-in '
+                                : 'fixed -right-full transition-all duration-200 ease-in '
+                        }`}>
+                        <div className={'flex items-center justify-between pt-6 mr-5'}>
+                            <div className="">
+                                <img className='w-24' src={Logo.src} />
+                            </div>
+                            <button onClick={handleToggle} className="navbar-close">
+                                <FaTimes className="h-7 w-7 text-black text-brand-black" />
+                            </button>
+                        </div>
+                        <div className="mx-5">
+                            <ul className="z-20">
+                                <li onClick={handleToggle} className="mb-1">
+                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
+                                </li>
+                                <li onClick={handleToggle} className="mb-1">
+                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#feature">Home</a>
+                                </li>
+                                <li onClick={handleToggle} className="mb-1">
+                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#service">Home</a>
+                                </li>
+                                <li onClick={handleToggle} className="mb-1">
+                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#team">home</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="mt-auto z-20">
+                            <p className="my-4 text-xs text-center text-gray-400">
+                                <span>Copyright © 2021</span>
+                            </p>
+                        </div>
+                    </nav>
+                </div>
             </div>
-    )
+        </>
+    );
 }
 
-export default Hamburger;

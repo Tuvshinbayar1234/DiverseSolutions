@@ -105,22 +105,22 @@ function App(){
         </div>
         <div className="flex flex-col justify-start items-start mx-12 py-10">
           <div className="w-6/12 flex flex-col justify-start">
-             <div className="flex flex-col">
+             <div className="flex flex-col pb-3">
                <h1>Нэр</h1>
-               <input className="w-56 py-4 outline-none border-b" placeholder="Name" />
+               <input className=" w-72 pt-2 outline-none border-b" placeholder="Name" />
              </div>
-             <div className="flex flex-col">
+             <div className="flex flex-col pb-3">
                <h1>E-mail</h1>
-               <input className=" w-56 py-4 outline-none border-b" placeholder="E-mail" />
+               <input className=" w-72 pt-2 outline-none border-b" placeholder="E-mail" />
              </div>
-             <div className="flex flex-col">
+             <div className="flex flex-col pb-3">
                <h1>Phone</h1>
-               <input className=" w-56 py-4 outline-none border-b" placeholder="Phone" />
+               <input className=" w-72 pt-2 outline-none border-b" placeholder="Phone" />
              </div>
              <div className="flex flex-col justify-evenly space-x-6">
               <div className="flex flex-col">
                 <h1>Message</h1>
-                <textarea id="message" rows="4" className="w-56 py-4 outline-none border-b" placeholder="Leave a comment..."></textarea>
+                <textarea id="message" rows="4" className="w-72 pt-2 outline-none border-b" placeholder="Leave a comment..."></textarea>
               </div>
             </div>
           </div>
