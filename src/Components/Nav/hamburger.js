@@ -38,16 +38,16 @@ export default function Hamburger() {
                         <div className="mx-5">
                             <ul className="z-20">
                                 <li onClick={handleToggle} className="mb-1">
-                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Home</a>
+                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#">Бид</a>
                                 </li>
                                 <li onClick={handleToggle} className="mb-1">
-                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#feature">Home</a>
+                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#WeWork">Бид юу хийдэг вэ?</a>
                                 </li>
                                 <li onClick={handleToggle} className="mb-1">
-                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#service">Home</a>
+                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#Team">Манай хамт олон</a>
                                 </li>
                                 <li onClick={handleToggle} className="mb-1">
-                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#team">home</a>
+                                    <a className="block p-4 text-sm font-semibold text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded" href="#Project">Төслүүд</a>
                                 </li>
                             </ul>
                         </div>
