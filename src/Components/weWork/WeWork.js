@@ -37,16 +37,16 @@ const WeWork = () => {
             </div>
             {/* mobile */}
             <div className='container mx-auto block xl:hidden'>
-                <div className='flex flex-col justify-evenly items-center px-5'>
-                    <span class="w-full h-60 flex-col flex justify-center rounded-2xl">
-                    <h1 className='text-2xl text-left w-3/12'>Вебсайт хөгжүүлэлт</h1>
+                <div className='flex flex-col justify-center items-center px-5'>
+                    <span class="w-full h-40 flex-col flex justify-center rounded-2xl">
+                    <h1 className='text-2xl text-left'>Вебсайт хөгжүүлэлт</h1>
                     <p className=' text-sm w-full mx-1 py-5'>ERP, CRM гэх мэт олон төрлийн үйлчилгээг бид таны хүссэн шийдлийн дагуу хийж өгнө.</p>
                     </span>
                     <span class="w-full h-28 flex-col flex rounded-2xl">
                     <h1 className='text-2xl w-9/12'>Aпп хөгжүүлэлт</h1>
                     <p className=' text-sm w-full py-5'>Танд бизнесээ өргөжүүлэх шаардлага дижитал эрин зуунд гарч байна уу ?</p>    
                     </span>
-                    <span class="w-full h-60 flex-col flex justify-center rounded-2xl">
+                    <span class="w-full h-40 flex-col flex justify-center rounded-2xl">
                     <h1 className='text-2xl text-left w-3/12'>Дизайн</h1>
                         <p className=' text-sm w-full mx-1 py-5'>Вэб болон гар утасны апплекейшны дизайн хийж гүйцэтгэж байна.</p>
                         

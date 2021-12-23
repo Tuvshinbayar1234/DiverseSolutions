@@ -10,22 +10,22 @@ const We = () => {
                             <h1 className='text-9xl' id='We' style={{fontFamily: 'Magistral'}}>Бид ?</h1>
                         </div>
                         <div className='flex flex-col justify-center items-center'>
-                            <h1 className='w-2/4 pt-10'>Бидний түүх</h1>
-                            <p className='origin-center transform rotate-1 py-5 w-2/4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ea ullam id esse quibusdam commodi.</p>
+                            <h1 className='w-2/4 pt-10 font-bold'>Эрхэм зорилго</h1>
+                            <p className='origin-center transform rotate-1 py-5 w-2/4'>Дизайн, брэндинг, технологийн шийдлийг хамгийн өндөр түвшинд хүргэж, харилцагчиддаа үнэ цэнийг бүтээхэд хамтран ажиллахыг зорьдог.</p>
                         </div>
                     </div>
                     <div className=' w-2/4'>
                         <div className=''>
-                            <h1>Бид хэн бэ?</h1>
-                            <p className=' origin-bottom-left transform -rotate-1 py-5'>Дайверс Солюшнс нь програм хангамж хөгжүүлэлтийн компани ба 12 хүний бүрэлдэхүүнтэй чадварлаг баг хамт олонтойгоор ажиллаж байна. Манай компани нь таны байгууллагийн хэрэглэгчид дээр тулгуурлан өнгө, дизайны өвөрмөц шийдэл гаргах үүнд, цахим орчинг ашиглан таны бизнесийн өсөлт хурдын нэмэх, таны компанийн дижитал шилжилтийн гүүр болно.</p>
+                            <h1 className='font-bold'>Алсын хараа</h1>
+                            <p className=' origin-bottom-left transform -rotate-1 py-5'>Чадварлаг залуусаар хамт олноо бүрдүүлж, Монгол Улс дахь харилцагчиддаа цахим эрин зуунд олон улсын тавцанд өрсөлдөх шийдлийг бий болгох.</p>
                         </div>
                         <div className=''>
-                            <h1 className='origin-bottom-left transform -rotate-1 py-5'>Бид юуг чаддаг вэ?</h1>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora odio ullam reiciendis necessitatibus rerum aut suscipit delectus nesciunt expedita, laborum maxime fugiat ipsum quasi deserunt ea perspiciatis harum. Possimus, molestias.</p>
+                            <h1 className='origin-bottom-left transform -rotate-1 py-5 font-bold'>Бидний үнэ цэн</h1>
+                            <p>Өөртөө итгэлтэй, чадварлаг, эрч хүчтэй залуусыг шалгаруулан бэлтгэж, өөрсдийн үйлчилгээг хамгийн өндөр түвшинд хүргээд зогсохгүй цаашдын үйл ажиллагааг дэмжин ажилладаг нь бидний үнэ цэн болно. </p>
                         </div>
                         <div className='origin-center transform rotate-1 py-10'>
-                            <h1>Бид хэн бэ</h1>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora odio ullam reiciendis necessitatibus rerum aut suscipit delectus nesciunt expedita, laborum maxime fugiat ipsum quasi deserunt ea perspiciatis harum. Possimus, molestias.</p>
+                            <h1 className='font-bold'>Бид хэн бэ</h1>
+                            <p>“Дайверс Солюшнс ХХК” компани нь чадварлаг, эрч хүчтэй 12 хүний бүрэлдэхүүнтэйгээр таны компанийн дижитал шилжилтийн гүүрийг үүсгэхээр ажиллаж байна.</p>
                         </div>
                     </div>
                 </div>

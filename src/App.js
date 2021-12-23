@@ -41,7 +41,9 @@ function App(){
         </div>
       </div>
       {/* Mobile */}
+      <div className="flex justify-center items-center">
       <div className="container block lg:hidden px-5">
+        
         <div className="flex justify-evenly">
           <div className="w-6/12 sm:pt-24" style={{fontFamily: 'Magistral'}}>
             <div className="">
@@ -55,6 +57,7 @@ function App(){
           <div className="  w-6/12 flex justify-center items-center">
             <img className="" src={Home} alt="Home" />
           </div>
+        </div>
         </div>
       </div>
       <We />
