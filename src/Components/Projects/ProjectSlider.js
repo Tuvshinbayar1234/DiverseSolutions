@@ -92,12 +92,12 @@ const ProjectSlider = () => {
                                 <a href='#' target='_blank'>dax.mn</a>
                             </div>
                             <div className='pt-5'>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
+                                <p>Монголын том 4 биржийн нэг. Хамгийн анх Ард Санхүүгийн Нэгдэлийн крипто арилжааны биржийг</p>
                                
                             </div>
                             <div className=" absolute bottom-0 pb-2 right-0 pr-2">
                                 <button type="button" className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" onClick={closeModal}>
-                                    Got it, thanks!
+                                    Буцах
                                 </button>
                             </div>
                         </div>
@@ -122,16 +122,14 @@ const ProjectSlider = () => {
                                 <img className='w-1/4' src={Project1} />
                             </Dialog.Title>
                             <div className="mt-2">
-                                <a href='#' target='_blank'>dax.mn</a>
+                                <a href='#' target='_blank'>stablecoin.mn</a>
                             </div>
                             <div className='pt-5'>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
+                                <p>Монголын анхны Стэйблкойн. Монгол төгрөгтэй үнэ цэнээ аргамжсан энэхүү койн нь крипто арилжаанд төгрөгийг төлөөлөх хамгийн зөв хэрэгсэл болно. Энэхүү койны ухаалаг гэрээг Diverse Solutions хөгжүүлж, хэрэглээнд нэвтрүүлсэн болно.</p>
                             </div>
                             <div className="mt-4 absolute bottom-0 right-0 pb-2 pr-2">
                                 <button type="button" className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" onClick={closeModalSecond}>
-                                    Got it, thanks!
+                                    Буцах
                                 </button>
                             </div>
                         </div>
@@ -156,16 +154,14 @@ const ProjectSlider = () => {
                                 <img className='w-1/4' src={Project1} />
                             </Dialog.Title>
                             <div className="mt-2">
-                                <a href='#' target='_blank'>dax.mn</a>
+                                <a href='#' target='_blank'>ardmoney.com</a>
                             </div>
                             <div className='pt-5'>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
+                                <p>Монголын анхны DAO төсөл. Төвлөрсөн бус санхүүг Монголын болон Төв Азийн зах зээлд авчирч, крипто хэрэглэгчдийн хэрэглээнд нэвтрэх зорилготой.</p>
                             </div>
                             <div className="mt-4 absolute bottom-0 right-0 pb-2 pr-2">
                                 <button type="button" className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" onClick={closeModalThird}>
-                                    Got it, thanks!
+                                    Буцах
                                 </button>
                             </div>
                         </div>
@@ -190,16 +186,14 @@ const ProjectSlider = () => {
                                 <img className='w-1/4' src={Project1} />
                             </Dialog.Title>
                             <div className="mt-2">
-                                <a href='#' target='_blank'>dax.mn</a>
+                                <a href='#' target='_blank'>monnom</a>
                             </div>
                             <div className='pt-5'>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
+                                <p>“Monnom” аппликейшн нь цахим, аудио, хэвлэмэл номыг онлайнаар худалдаалдаг номын төвлөрсөн платформ юм. Бид 2021 оноос үйл ажиллагаагаа явуулж эхэлсэн ба Монгол хэл дээрх бүх төрлийн номыг цахим, аудио, хэвлэмэл гэсэн гурван хэлбэрээр хэрэглэгчдэд хүргэдэг. Мөн подкаст, монлайв, номтой холбоотой бүх төрлийн мэдээ мэдээлэл, контентын цогцоор нь багтаасан.</p>
                             </div>
                             <div className="mt-4 absolute bottom-0 right-0 pb-2 pr-2">
                                 <button type="button" className="inline-flex justify-center px-4 py-2 text-sm font-medium text-red-500 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" onClick={closeModalFourth}>
-                                    Got it, thanks!
+                                    Буцах
                                 </button>
                             </div>
                         </div>
