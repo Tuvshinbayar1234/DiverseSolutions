@@ -81,21 +81,21 @@ const Projects = () => {
 
     const products = [
         {
-           id: 1,
-           name: 'Coming Soon',
-           code: 'ARDM',
-           description: 'Coming Soon',
-           development: 'Coming Soon',
-           development1: 'Coming Soon',
-           development2: 'Coming Soon',
-           development3: 'Coming Soon',
-           development4: 'Coming Soon',
-           development5: 'Coming Soon',
-           development6: 'Coming Soon',
-           development7: 'Coming Soon',
-           development8: 'Coming Soon',
-           img: White
-       },
+            id: 1,
+            name: 'dax.mn',
+            code: 'ARDM',
+            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, maxime.',
+            development: 'Development',
+            development1: 'Code',
+            development2: 'FrontEnd',
+            development3: 'BackEnd',
+            development4: 'Designs',
+            development5: 'Design',
+            development6: 'Design',
+            development7: 'Design',
+            development8: 'Design',
+            img: White
+        },
        
         {
             id: 2,
@@ -156,7 +156,7 @@ const Projects = () => {
     const imageProducts = [
         {
             id: 121,
-            code: "MONT",
+            code: "ARDM",
             img: Project1
         },
         {
@@ -166,7 +166,7 @@ const Projects = () => {
         },
         {
             id: 122,
-            code: "ARDM",
+            code: "MONT",
             img: Project1
         },
     ]
@@ -182,7 +182,7 @@ const Projects = () => {
                         <div className='w-2/4 flex flex-col justify-evenly'>
                             <div className='py-2'>
                                 <h1 className='font-bold text-2xl'>Хөгжүүлэлт</h1>
-                                <p className=' origin-bottom-left transform -rotate-1 py-2 px-2'>Бид хэрэглэгчдийнхээ онцлогийг шинжлэн, хэрэгцээнд зориулсан дизайн, брэндинг, вэбсайт, вэб болон утасны апп, блокчэйн дээр суурилсан токен, dapp-н ухаалаг гэрээг хөгжүүлж байна. Бид Монголын анхны төгрөгтэй 1:1 үнэ цэнтэй стэйблкойн болон Монголын анхны төвлөрсөн бус санхүүгийн систем болох ArdMoney төслийг гардан хэрэгжүүлж байгаа болно.</p>
+                                <p className='py-2 px-2'>Бид хэрэглэгчдийнхээ онцлогийг шинжлэн, хэрэгцээнд зориулсан дизайн, брэндинг, вэбсайт, вэб болон утасны апп, блокчэйн дээр суурилсан токен, dapp-н ухаалаг гэрээг хөгжүүлж байна. Бид Монголын анхны төгрөгтэй 1:1 үнэ цэнтэй стэйблкойн болон Монголын анхны төвлөрсөн бус санхүүгийн систем болох ArdMoney төслийг гардан хэрэгжүүлж байгаа болно.</p>
                             </div>
                             <div className=''>
                                 <h1 className='font-bold text-2xl '>Зөвлөх</h1>
@@ -208,11 +208,11 @@ const Projects = () => {
                                                 <a href='https://dax.mn/' target="_blank">{selectedProject[0].name}</a>
                                             </div>
                                             <div className='text-white w-4/5 flex flex-col pt-5 px-2'>
-                                                <div className='flex items-center justify-between'>
-                                                    <h1 className='text-left text-2xl pb-2'>{selectedProject[0].name}</h1>
-                                                    <h1 onClick={() => closedAlert()} className='text-3xl text-white cursor-pointer'><FaAngleLeft /></h1>
+                                                <div className='flex flex-col'>
+                                                    <h1 onClick={() => closedAlert()} className='text-3xl text-white cursor-pointer flex justify-end'><FaAngleLeft /></h1>
+                                                    <div className=''><h1 className='text-left text-2xl pb-2 px-2'>{selectedProject[0].name}</h1></div>
                                                 </div>
-                                                <p className=' text-justify'>{selectedProject[0].description}</p>
+                                                <p className=' text-justify px-2'>{selectedProject[0].description}</p>
                                             </div>
                                         </div>
                                             <div className='w-full flex justify-end'>
@@ -252,7 +252,7 @@ const Projects = () => {
                                     <div className='flex flex-col items-end'>
                                         <div className='h-56 flex justify-end rounded-tr-lg rounded-tl-lg' style={{width: '70%', background: '#1E1E1E' ,boxShadow: '0px rgba(0, 0, 0, 0.5), inset 0px rgba(255, 255, 255, 0.25)'}}>
                                             <div className='text-white px-2 w-full flex flex-col'>
-                                            <h1 onClick={() => closedBottomAlert()} className='text-3xl text-right text-white cursor-pointer flex justify-end'><FaAngleLeft /></h1>
+                                            <h1 onClick={() => closedBottomAlert()} className='text-xl pr-3 text-right text-white cursor-pointer flex justify-end pt-2'><FaAngleLeft /></h1>
                                                 <div className='flex items-center w-full justify-between'>
                                                     <div className='text-white w-full flex flex-col pt-5 pl-5'>
                                                         <div className='text-white text-center'>

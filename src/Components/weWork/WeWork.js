@@ -9,7 +9,7 @@ const WeWork = () => {
                     <h1 className=' text-4xl w-3/12 mx-10 font-bold'>Вебсайт хөгжүүлэлт</h1>
                         <p className=' text-sm w-3/4 mx-10 py-5'>ERP, CRM гэх мэт олон төрлийн үйлчилгээг бид таны хүссэн шийдлийн дагуу хийж өгнө.</p>
                         <span class="flex absolute h-10 w-10 top-0 right-0 mt-52 -mr-5">
-                            <span class="animate-ping absolute inline-flex h-full w-full bg-black opacity-75"></span>
+                            <span class="absolute inline-flex h-full w-full bg-black opacity-75"></span>
                             <span class="relative inline-flex h-10 w-10 bg-black"></span>
                         </span>
                     </span>
@@ -17,7 +17,7 @@ const WeWork = () => {
                     <h1 className=' text-4xl w-3/12 mx-10 font-bold'>Aпп хөгжүүлэлт</h1>
                         <p className=' text-sm w-3/4 mx-10 py-5'>Танд бизнесээ өргөжүүлэх шаардлага дижитал эрин зуунд гарч байна уу ?</p>
                         <span class="flex absolute h-10 w-10 top-0 right-0 mt-52 -mr-5">
-                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-black opacity-75"></span>
+                            <span class="absolute inline-flex h-full w-full rounded-full bg-black opacity-75"></span>
                             <span class="relative inline-flex rounded-full h-10 w-10 bg-black"></span>
                         </span>
                     </span>
@@ -25,11 +25,11 @@ const WeWork = () => {
                     <h1 className=' text-4xl w-3/12 mx-10 font-bold'>Дизайн</h1>
                         <p className=' text-sm w-3/4 mx-10 py-5'>Вэб болон гар утасны апплекейшны дизайн хийж гүйцэтгэж байна.</p>
                         <span class="flex absolute h-10 w-10 top-0 right-0 mt-52 -mr-5">
-                            <span class="animate-ping absolute inline-flex h-full w-full bg-black opacity-75"></span>
+                            <span class="absolute inline-flex h-full w-full bg-black opacity-75"></span>
                             <span class="relative inline-flex h-10 w-10 bg-black"></span>
                         </span>
                         <span class="flex absolute h-10 w-10 top-0 right-0 mt-52 -mr-5 origin-center transform rotate-45">
-                            <span class="animate-ping absolute inline-flex h-full w-full bg-black opacity-75"></span>
+                            <span class="absolute inline-flex h-full w-full bg-black opacity-75"></span>
                             <span class="relative inline-flex h-10 w-10 bg-black"></span>
                         </span>
                     </span>
