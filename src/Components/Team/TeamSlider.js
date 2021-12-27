@@ -201,11 +201,15 @@ const TeamSlider = () => {
                             &#8203;
                         </span>
                         <Transition.Child as={Fragment} enter="ease-out duration-300" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="ease-in duration-200" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
-                            <div className="inline-block w-full px-2 max-w-md h-full overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+                            <div className="inline-block w-full px-2 max-w-full h-full overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                                 <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
-                                    <div className="flex items-center p-5">
-                                        <p onClick={closeModal} className="text-xs cursor-pointer">Буцах</p>
-                                        <h1 className="ml-10">Манай хамт олон</h1>
+                                    <div className="flex flex-col items-center p-5 w-full">
+                                        <div className="flex justify-start w-full">
+                                            <p onClick={closeModal} className="text-left cursor-pointer">Буцах</p>
+                                        </div>
+                                        <div className="flex justify-center items-center">
+                                            <h1 className="text-center">Манай хамт олон</h1>
+                                        </div>
                                     </div>
                                 </Dialog.Title>
                                 <div className="flex justify-around w-full space-x-3">

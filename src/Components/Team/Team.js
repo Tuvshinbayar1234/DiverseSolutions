@@ -77,10 +77,10 @@ const Team = () => {
                 <h1 id="Team" className='text-4xl' style={{fontFamily: 'Magistral'}}>Манай хамт олон</h1>
             </div>
             <div className="hidden lg:block">
-                <div className="flex items-center justify-start py-5">
+                <div className="flex items-center justify-evenly space-x-4 py-5">
                     {Team.map((i , x) => {
                         return(
-                        <div key={x} className="flex justify-center items-center w-48 h-64 rounded-3xl sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
+                        <div key={x} className="flex justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                             <div className="">
                                 <img width={'140px'} height={'188px'} src={i.img} />
                                 <h1 className="pt-3 text-sm font-bold">{i.name}</h1>
@@ -92,10 +92,10 @@ const Team = () => {
                 </div>
             </div>
             <div className="hidden lg:block">
-                <div className="flex items-center justify-start py-5">
+                <div className="flex items-center justify-evenly space-x-4 py-5">
                     {Team2.map((i , x) => {
                         return(
-                        <div key={x} className="flex justify-center items-center w-48 h-64 rounded-3xl sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
+                        <div key={x} className="flex justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                             <div className="">
                                 <img width={'140px'} height={'188px'} src={i.img} />
                                 <h1 className="pt-3 text-sm font-bold">{i.name}</h1>
@@ -107,36 +107,36 @@ const Team = () => {
                 </div>
             </div>
             <div className="hidden lg:block">
-                <div className="flex items-center justify-start py-5">
-                    <div className="flex justify-center items-center w-48 h-64 rounded-3xl sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
+                <div className="flex items-center justify-evenly space-x-4 py-5">
+                    <div className="flex justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                         <div className="">
                             <img width={'140px'} height={'188px'} src={zaya} />
                             <h1 className="pt-3 text-sm font-bold">Ж. Амарзаяа</h1>
                             <p className="lg:text-xs sm:text-xs pb-3">Secretary</p>
                         </div>
                     </div>
-                    <div className="flex justify-center items-center w-48 h-64 rounded-3xl sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
+                    <div className="flex justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                         <div className="">
                             <img width={'140px'} height={'188px'} src={amaraa} />
                             <h1 className="pt-3 text-sm font-bold">А. Амартүвшин</h1>
                             <p className="lg:text-xs sm:text-xs pb-3">Blockchain Consultant</p>
                         </div>
                     </div>
-                    <div className="flex opacity-0 justify-center items-center w-48 h-64 rounded-3xl sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
+                    <div className="flex opacity-0 justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                         <div className="">
                             <img width={'140px'} height={'188px'} src={zaya} />
                             <h1 className="pt-3 text-sm font-bold">Ж. Амарзаяа</h1>
                             <p className="lg:text-xs sm:text-xs pb-3">Secretary</p>
                         </div>
                     </div>
-                    <div className="flex opacity-0 justify-center items-center w-48 h-64 rounded-3xl sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
+                    <div className="flex opacity-0 justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                         <div className="">
                             <img width={'140px'} height={'188px'} src={zaya} />
                             <h1 className="pt-3 text-sm font-bold">Ж. Амарзаяа</h1>
                             <p className="lg:text-xs sm:text-xs pb-3">Secretary</p>
                         </div>
                     </div>
-                    <div className="flex opacity-0 justify-center items-center w-48 h-64 rounded-3xl sm:mr-3 lg:mr-10 xl:mr-24" style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
+                    <div className="flex opacity-0 justify-center items-center w-48 h-64 rounded-3xl " style={{backgroundColor: '#FBFBFB', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)'}}>
                         <div className="">
                             <img width={'140px'} height={'188px'} src={zaya} />
                             <h1 className="pt-3 text-sm font-bold">Ж. Амарзаяа</h1>

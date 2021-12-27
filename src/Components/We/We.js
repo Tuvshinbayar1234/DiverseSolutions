@@ -10,21 +10,21 @@ const We = () => {
                             <h1 className='text-9xl' id='We' style={{fontFamily: 'Magistral'}}>Бид ?</h1>
                         </div>
                         <div className='flex flex-col justify-center items-center'>
-                            <h1 className='w-2/4 pt-10 font-bold'>Эрхэм зорилго</h1>
+                            <h1 className='w-2/4 pt-10 text-2xl font-bold'>Эрхэм зорилго</h1>
                             <p className='origin-center transform rotate-1 py-5 w-2/4'>Дизайн, брэндинг, технологийн шийдлийг хамгийн өндөр түвшинд хүргэж, харилцагчиддаа үнэ цэнийг бүтээхэд хамтран ажиллахыг зорьдог.</p>
                         </div>
                     </div>
                     <div className=' w-2/4'>
                         <div className=''>
-                            <h1 className='font-bold'>Алсын хараа</h1>
+                            <h1 className='font-bold text-2xl'>Алсын хараа</h1>
                             <p className=' origin-bottom-left transform -rotate-1 py-5'>Чадварлаг залуусаар хамт олноо бүрдүүлж, Монгол Улс дахь харилцагчиддаа цахим эрин зуунд олон улсын тавцанд өрсөлдөх шийдлийг бий болгох.</p>
                         </div>
                         <div className=''>
-                            <h1 className='origin-bottom-left transform -rotate-1 py-5 font-bold'>Бидний үнэ цэн</h1>
+                            <h1 className='origin-bottom-left transform -rotate-1 py-5 font-bold text-2xl'>Бидний үнэ цэн</h1>
                             <p>Өөртөө итгэлтэй, чадварлаг, эрч хүчтэй залуусыг шалгаруулан бэлтгэж, өөрсдийн үйлчилгээг хамгийн өндөр түвшинд хүргээд зогсохгүй цаашдын үйл ажиллагааг дэмжин ажилладаг нь бидний үнэ цэн болно. </p>
                         </div>
                         <div className='origin-center transform rotate-1 py-10'>
-                            <h1 className='font-bold'>Бид хэн бэ</h1>
+                            <h1 className='font-bold text-2xl'>Бид хэн бэ</h1>
                             <p>“Дайверс Солюшнс ХХК” компани нь чадварлаг, эрч хүчтэй 12 хүний бүрэлдэхүүнтэйгээр таны компанийн дижитал шилжилтийн гүүрийг үүсгэхээр ажиллаж байна.</p>
                         </div>
                     </div>

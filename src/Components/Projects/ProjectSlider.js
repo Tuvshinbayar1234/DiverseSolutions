@@ -84,19 +84,18 @@ const ProjectSlider = () => {
                           &#8203;
                         </span>
                         <Transition.Child as={Fragment} enter="ease-out duration-300" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="ease-in duration-200" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
-                        <div className="inline-block w-full px-2 max-w-md h-screen overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+                        <div className="relative inline-block w-full px-2 max-w-full h-screen overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                             <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
-                                <img className='w-1/4' src={Project1} />
+                                <img className='w-24 h-24' src={Project1} />
                             </Dialog.Title>
                             <div className="mt-2">
                                 <a href='#' target='_blank'>dax.mn</a>
                             </div>
                             <div className='pt-5'>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
+                               
                             </div>
-                            <div className="mt-4">
+                            <div className=" absolute bottom-0 pb-2 right-0 pr-2">
                                 <button type="button" className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" onClick={closeModal}>
                                     Got it, thanks!
                                 </button>
@@ -118,7 +117,7 @@ const ProjectSlider = () => {
                           &#8203;
                         </span>
                         <Transition.Child as={Fragment} enter="ease-out duration-300" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="ease-in duration-200" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
-                        <div className="inline-block w-full px-2 max-w-md h-screen overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+                        <div className="relative inline-block w-full px-2 max-w-full h-screen overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                             <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
                                 <img className='w-1/4' src={Project1} />
                             </Dialog.Title>
@@ -130,7 +129,7 @@ const ProjectSlider = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
                             </div>
-                            <div className="mt-4">
+                            <div className="mt-4 absolute bottom-0 right-0 pb-2 pr-2">
                                 <button type="button" className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" onClick={closeModalSecond}>
                                     Got it, thanks!
                                 </button>
@@ -152,7 +151,7 @@ const ProjectSlider = () => {
                           &#8203;
                         </span>
                         <Transition.Child as={Fragment} enter="ease-out duration-300" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="ease-in duration-200" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
-                        <div className="inline-block w-full px-2 max-w-md h-screen overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+                        <div className="relative inline-block w-full px-2 max-w-full h-screen overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                             <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
                                 <img className='w-1/4' src={Project1} />
                             </Dialog.Title>
@@ -164,7 +163,7 @@ const ProjectSlider = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
                             </div>
-                            <div className="mt-4">
+                            <div className="mt-4 absolute bottom-0 right-0 pb-2 pr-2">
                                 <button type="button" className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" onClick={closeModalThird}>
                                     Got it, thanks!
                                 </button>
@@ -186,7 +185,7 @@ const ProjectSlider = () => {
                           &#8203;
                         </span>
                         <Transition.Child as={Fragment} enter="ease-out duration-300" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="ease-in duration-200" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
-                        <div className="inline-block w-full px-2 max-w-md h-screen overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+                        <div className="relative inline-block w-full px-2 max-w-full h-screen overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                             <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
                                 <img className='w-1/4' src={Project1} />
                             </Dialog.Title>
@@ -198,7 +197,7 @@ const ProjectSlider = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis expedita quisquam enim, assumenda iste laborum quod molestiae. Nobis, quam!</p>
                             </div>
-                            <div className="mt-4">
+                            <div className="mt-4 absolute bottom-0 right-0 pb-2 pr-2">
                                 <button type="button" className="inline-flex justify-center px-4 py-2 text-sm font-medium text-red-500 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" onClick={closeModalFourth}>
                                     Got it, thanks!
                                 </button>
