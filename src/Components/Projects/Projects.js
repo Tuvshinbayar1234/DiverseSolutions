@@ -31,22 +31,22 @@ const Projects = () => {
          {
             id: 1,
             name: 'stablecoin.com',
+            link: 'https://www.stablecoin.mn/',
             code: 'ARDM',
             description: 'Монголын анхны Стэйблкойн. Монгол төгрөгтэй үнэ цэнээ аргамжсан энэхүү койн нь крипто арилжаанд төгрөгийг төлөөлөх хамгийн зөв хэрэгсэл болно. Энэхүү койны ухаалаг гэрээг Diverse Solutions хөгжүүлж, хэрэглээнд нэвтрүүлсэн болно.',
-            development: 'Development',
-            development1: 'Code',
-            development2: 'FrontEnd',
-            development3: 'BackEnd',
-            development4: 'Designs',
-            development5: 'Design',
-            development6: 'Design',
-            development7: 'Design',
-            development8: 'Design',
+            development: 'BackEnd',
+            development1: 'Website front-end',
+            development2: 'Token smart contracts',
+            development3: 'Website front-end',
+            development4: 'Design',
+            development5: 'Branding',
+            development6: 'Ecosystem consulting',
             img: White
         },
         {
             id: 2,
             name: 'dax.mn',
+            link:'https://dax.mn/',
             code: 'ARDX',
             description: 'Монголын том 4 биржийн нэг. Хамгийн анх Ард Санхүүгийн Нэгдэлийн крипто арилжааны биржийг',
             development: 'Development',
@@ -54,26 +54,23 @@ const Projects = () => {
             development2: 'FrontEnd',
             development3: 'BackEnd',
             development4: 'Designs',
-            development5: 'Design',
-            development6: 'Design',
-            development7: 'Design',
-            development8: 'Design',
+            development5: 'Designs',
+            development6: 'Designs',
             img: White
         },
         {
             id: 3,
             name: 'Monnom',
             code: 'MONT',
+            link: 'https://monnom.mn/',
             description: '“Monnom” аппликейшн нь цахим, аудио, хэвлэмэл номыг онлайнаар худалдаалдаг номын төвлөрсөн платформ юм. Бид 2021 оноос үйл ажиллагаагаа явуулж эхэлсэн ба Монгол хэл дээрх бүх төрлийн номыг цахим, аудио, хэвлэмэл гэсэн гурван хэлбэрээр хэрэглэгчдэд хүргэдэг.',
             development: 'Development',
             development1: 'Code',
             development2: 'FrontEnd',
             development3: 'BackEnd',
             development4: 'Designs',
-            development5: 'Design',
-            development6: 'Design',
-            development7: 'Design',
-            development8: 'Design',
+            development5: 'Designs',
+            development6: 'Designs',
             img: White
         },
        
@@ -83,17 +80,16 @@ const Projects = () => {
         {
             id: 1,
             name: 'ArdMoney',
+            link: 'https://www.ardmoney.com/',
             code: 'ARDM',
             description: 'Монголын анхны DAO төсөл. Төвлөрсөн бус санхүүг Монголын болон Төв Азийн зах зээлд авчирч, крипто хэрэглэгчдийн хэрэглээнд нэвтрэх зорилготой.',
-            development: 'Development',
-            development1: 'Code',
-            development2: 'FrontEnd',
-            development3: 'BackEnd',
+            development:  'Branding',
+            development1: 'Ecosystem',
+            development2: 'Website front-end',
+            development3: 'Website back-end',
             development4: 'Designs',
-            development5: 'Design',
-            development6: 'Design',
-            development7: 'Design',
-            development8: 'Design',
+            development5: 'Token smart contracts',
+            development6: 'DAP smart contracts ',
             img: White
         },
        
@@ -109,8 +105,6 @@ const Projects = () => {
             development4: 'Coming Soon',
             development5: 'Coming Soon',
             development6: 'Coming Soon',
-            development7: 'Coming Soon',
-            development8: 'Coming Soon',
             img: White
         },
         
@@ -126,8 +120,6 @@ const Projects = () => {
             development4: 'Coming Soon',
             development5: 'Coming Soon',
             development6: 'Coming Soon',
-            development7: 'Coming Soon',
-            development8: 'Coming Soon',
             img: White
         },
    ]
@@ -187,7 +179,7 @@ const Projects = () => {
                             <div className=''>
                                 <h1 className='font-bold text-2xl '>Зөвлөх</h1>
                                 <p className='px-2'>Блокчэйн болон бусад дэвшилтэт технологийн шийдлийг таны бизнест тохируулан боловсруулж, зөвлөж өгөх болно. Манай харилцагчид мөн бидний улирал бүр гаргах технологийн тайлангуудыг хамгийн түрүүнд хүлээн авдаг.</p>
-                                <p className='px-2 py-2'>Манай компани нь 2020 онд Монгол Улсад мэдээллийн технологийн чиглэлээр үйл ажиллагаа эрхлэхээр үүсгэн байгуулагдсан бөгөөд бид одоогоор 4 бүтээгдэхүүнийг амжилттай хөгжүүлээд хэрэглээнд нэвтрүүлсэн байна.</p>
+                                {/* <p className='px-2 py-2'>Манай компани нь 2020 онд Монгол Улсад мэдээллийн технологийн чиглэлээр үйл ажиллагаа эрхлэхээр үүсгэн байгуулагдсан бөгөөд бид одоогоор 4 бүтээгдэхүүнийг амжилттай хөгжүүлээд хэрэглээнд нэвтрүүлсэн байна.</p> */}
                             </div>
                         </div>
                         <div className='flex flex-col relative justify-center w-2/4'>
@@ -205,7 +197,7 @@ const Projects = () => {
                                         <div className='h-56 flex rounded-tl-lg rounded-bl-lg rounded-tr-lg w-full' style={{background: '#1E1E1E' ,boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.5), inset 2px 2px 2px rgba(255, 255, 255, 0.25)'}}>
                                             <div className='flex w-60 text-white flex-col justify-center items-center text-center'>
                                                 <img width={'171px'} height={'171px'} src={selectedProject[0].img} />
-                                                <a href='https://dax.mn/' target="_blank">{selectedProject[0].name}</a>
+                                                <a href={selectedProject[0].link} target="_blank">{selectedProject[0].name}</a>
                                             </div>
                                             <div className='text-white w-4/5 flex flex-col pt-5 px-2'>
                                                 <div className='flex flex-col'>
@@ -218,19 +210,18 @@ const Projects = () => {
                                             <div className='w-full flex justify-end'>
                                                 <div className='h-56 rounded-bl-lg rounded-br-lg' style={{width: '70%', background: '#1E1E1E' ,boxShadow: '0px rgba(0, 0, 0, 0.5), inset 0px rgba(255, 255, 255, 0.25)'}}>
                                                     <div className='text-white text-center'>
-                                                        <h1 className='font-bold text-2xl'>FrameWork</h1>
+                                                        <h1 className='font-bold text-2xl'>Ажилийн хэсэг</h1>
                                                         <div className='flex justify-evenly pt-10'>
                                                             <div className=''>
                                                                 <p>• {selectedProject[0].development1}</p>
                                                                 <p>• {selectedProject[0].development2}</p>
                                                                 <p>• {selectedProject[0].development3}</p>
-                                                                <p>• {selectedProject[0].development4}</p>
+                                                                
                                                             </div>
                                                             <div className=''>
+                                                                <p>• {selectedProject[0].development4}</p>
                                                                 <p>• {selectedProject[0].development5}</p>
                                                                 <p>• {selectedProject[0].development6}</p>
-                                                                <p>• {selectedProject[0].development7}</p>
-                                                                <p>• {selectedProject[0].development8}</p>
                                                             </div>
                                                         </div>
                                                     </div>    
@@ -254,24 +245,11 @@ const Projects = () => {
                                             <div className='text-white px-2 w-full flex flex-col'>
                                             <h1 onClick={() => closedBottomAlert()} className='text-xl pr-3 text-right text-white cursor-pointer flex justify-end pt-2'><FaAngleLeft /></h1>
                                                 <div className='flex items-center w-full justify-between'>
-                                                    <div className='text-white w-full flex flex-col pt-5 pl-5'>
-                                                        <div className='text-white text-center'>
-                                                            <h1 className='font-bold text-2xl'>FrameWork</h1>
-                                                            <div className='flex justify-evenly pt-2'>
-                                                                <div className=''>
-                                                                    <p>• {selectedProduct[0].development1}</p>
-                                                                    <p>• {selectedProduct[0].development2}</p>
-                                                                    <p>• {selectedProduct[0].development3}</p>
-                                                                    <p>• {selectedProduct[0].development4}</p>
-                                                                </div>
-                                                                <div className=''>
-                                                                    <p>• {selectedProduct[0].development5}</p>
-                                                                    <p>• {selectedProduct[0].development6}</p>
-                                                                    <p>• {selectedProduct[0].development7}</p>
-                                                                    <p>• {selectedProduct[0].development8}</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>    
+                                                    <div className='text-white w-full flex flex-col pl-5'>
+                                                    <div className='flex justify-center px-1 pt-5'>
+                                                        <p className='text-white'>{selectedProduct[0].description}</p>
+                                                    </div>
+                                                            
                                                     </div>
                                                 </div>
                                             </div>
@@ -279,10 +257,22 @@ const Projects = () => {
                                         <div className='h-56 flex rounded-bl-lg rounded-br-lg rounded-tl-lg w-full' style={{background: '#1E1E1E' ,boxShadow: '0px rgba(0, 0, 0, 0.5), inset 0px rgba(255, 255, 255, 0.25)'}}>
                                             <div className='flex w-60 text-white flex-col justify-center items-center text-center'>
                                                 <img width={'171px'} height={'171px'} src={selectedProduct[0].img} />
-                                                <a href='https://dax.mn/' target="_blank">{selectedProduct[0].name}</a>
+                                                <a href={selectedProduct[0].link} target="_blank">{selectedProduct[0].name}</a>
                                             </div>
-                                            <div className='flex justify-center w-4/5 px-1 pt-10'>
-                                                <p className='text-white'>{selectedProduct[0].description}</p>
+                                            <div className='text-white text-center flex justify-center flex-col items-center w-9/12'>
+                                                <h1 className='font-bold text-2xl'>Ажилийн хэсэг</h1>
+                                                <div className='flex space-x-10 pt-2'>
+                                                    <div className=''>
+                                                        <p>• {selectedProduct[0].development1}</p>
+                                                        <p>• {selectedProduct[0].development2}</p>
+                                                        <p>• {selectedProduct[0].development3}</p>
+                                                    </div>
+                                                    <div className=''>
+                                                        <p>• {selectedProduct[0].development4}</p>
+                                                        <p>• {selectedProduct[0].development5}</p>
+                                                        <p>• {selectedProduct[0].development6}</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

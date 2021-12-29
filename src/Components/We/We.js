@@ -11,21 +11,21 @@ const We = () => {
                         </div>
                         <div className='flex flex-col justify-center items-center'>
                             <h1 className='w-2/4 pt-10 text-2xl font-bold'>Эрхэм зорилго</h1>
-                            <p className='origin-center transform rotate-1 py-5 w-2/4 font-extralight'>Дизайн, брэндинг, технологийн шийдлийг хамгийн өндөр түвшинд хүргэж, харилцагчиддаа үнэ цэнийг бүтээхэд хамтран ажиллахыг зорьдог.</p>
+                            <p className='origin-center transform rotate-1 py-5 w-2/4 font-extralight'>Блокчэйн технологийн шийдлийг хамгийн өндөр түвшинд хөгжүүлж, харилцагчиддаа үнэ цэнийг бүтээхэд хамтран ажиллахыг зорьдог.</p>
                         </div>
                     </div>
                     <div className=' w-2/4'>
                         <div className=''>
                             <h1 className='font-bold text-2xl'>Алсын хараа</h1>
-                            <p className=' origin-bottom-left transform -rotate-1 py-5 font-extralight'>Чадварлаг залуусаар хамт олноо бүрдүүлж, Монгол Улс дахь харилцагчиддаа цахим эрин зуунд олон улсын тавцанд өрсөлдөх шийдлийг бий болгох.</p>
+                            <p className=' origin-bottom-left transform -rotate-1 py-5 font-extralight'>Монгол хөгжүүлэгчдийг блокчэйн хөгжүүлэлтэд бэлтгэж, блокчэйн шийдлээр олон улсын тавцанд өрсөлдөх.</p>
                         </div>
                         <div className=''>
                             <h1 className='origin-bottom-left transform -rotate-1 py-5 font-bold text-2xl'>Бидний үнэ цэн</h1>
-                            <p className='font-extralight'>Өөртөө итгэлтэй, чадварлаг, эрч хүчтэй залуусыг шалгаруулан бэлтгэж, өөрсдийн үйлчилгээг хамгийн өндөр түвшинд хүргээд зогсохгүй цаашдын үйл ажиллагааг дэмжин ажилладаг нь бидний үнэ цэн болно. </p>
+                            <p className='font-extralight'>Өөртөө итгэлтэй, чадварлаг, эрч хүчтэй залуусыг шалгаруулан бэлтгэж, харилцагчдынхаа бүтээгдэхүүнийг хамгийн өндөр түвшинд хүргээд зогсохгүй цаашдын үйл ажиллагааг дэмжин ажилладаг нь бидний үнэ цэн болно.</p>
                         </div>
                         <div className='origin-center transform rotate-1 py-10'>
                             <h1 className='font-bold text-2xl'>Бид хэн бэ</h1>
-                            <p className='font-extralight pt-5'>“Дайверс Солюшнс ХХК” компани нь чадварлаг, эрч хүчтэй 12 хүний бүрэлдэхүүнтэйгээр таны компанийн дижитал шилжилтийн гүүрийг үүсгэхээр ажиллаж байна.</p>
+                            <p className='font-extralight pt-5'>““Дайверс Солюшнс ХХК” компани нь чадварлаг, эрч хүчтэй 12 хүний бүрэлдэхүүнтэйгээр таны компанийн дижитал шилжилтийн гүүрийг үүсгэхээр ажиллаж байна.</p>
                         </div>
                     </div>
                 </div>

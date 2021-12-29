@@ -32,7 +32,7 @@ function App(){
             </div>
             <div className="flex flex-col justify-end w-4/5">
               <h1 className="text-8xl text-right">Complex</h1>
-              <h1 className="text-8xl">Conundrum</h1>
+              <h1 className="text-8xl">Cases</h1>
             </div>
           </div>
           <div className="w-full flex justify-end">
